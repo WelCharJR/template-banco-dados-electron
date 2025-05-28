@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <title>Hello from Electron renderer!</title>
-  </head>
-  <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>Hello from Electron renderer!</title>
+</head>
+
+<body>
+  <h1>Criar usuario</h1>
+  <form id="form-cadastro">
+    <label for="nome">Digite o nome</label>
+    <input type="text" id="nome" required>
+
+    <label for="email">Digite o email</label>
+    <input type="text" id="email" required>
+
+    <button type="submit">Cadastrar usuario</button>
+
+
+  </form>
+  <script src="../js/script.js"></script>
+</body>
+
 </html>
