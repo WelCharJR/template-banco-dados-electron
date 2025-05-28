@@ -8,15 +8,8 @@ formulario.addEventListener("submit", function(event){
     var nome = document.getElementById("nome").value
     var email = document.getElementById("email").value
 
-
-    var usuario = {
-        nome: nome,
-        email: email
-    }
-
-    lista.push(usuario)
-
-    console.log(usuario)
+    console.log(nome)
+    console.log(email)
 
 })
 
