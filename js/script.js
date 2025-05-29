@@ -8,6 +8,8 @@ formulario.addEventListener("submit", function(event){
     var nome = document.getElementById("nome").value
     var email = document.getElementById("email").value
 
+    window.api.cadastrarUsuario(nome, email)
+
     console.log(nome)
     console.log(email)
 
